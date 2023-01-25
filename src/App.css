@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #F8F4EA;
+  color: #579BB1;
+}
+
+h1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #579BB1;
+  font-weight: 300;
+  color: white;
+}
+
+.App {
+  display: flex;
+  width: 100%;
+  min-height: 500vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.inputNum {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.ipt {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iptnum {
+  border: 1px solid #1b1b1b;
+  border-radius: 4px;
+  width: 10rem;
+  font-size: 5rem;
+}
+
+.labelipt {
+  font-size: 3rem;
+}
+
+.result {
+  font-size: 3rem;
+}
+
+.btnresult {
+  width: 10rem;
+  height: 3rem;
+  font-size: 1.25rem;
+  border-radius: 4px;
+  color: white;
+  background-color: #C0DEFF;
+  cursor: pointer;
+  border: none;
+  transition: 300ms ease-in-out;
+}
+
+.btnresult:hover {
+  transform: scale(105%);
+}
+
+.test {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  width: 500px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+  padding: .25rem;
+  font-size: 1.25rem;
+}
+
+.rightwords {
+  text-align: end;
+}
+
+.middlewords {
+  text-align: center;
+}
+
+.resultNumber {
+  font-size: 1.5rem;
+}
